@@ -67,8 +67,8 @@ function checkWinner(){
     selection.style.display = 'flex';
 }
 
-function updateScore(){
-        score+=  1;
+function updateScore(value){
+        score+=  value;
         scoreEl.innerText = score;
 }
 function pickRandomChoice(){
