@@ -72,7 +72,7 @@ main{
     position: relative;
 }
 main::before{
-    background-image: url('/bg-triangle.svg');
+    background-image: url('bg-triangle.svg');
     background-repeat: no-repeat;
     background-size: cover;
     content: '';
