@@ -53,7 +53,7 @@ function checkWinner(){
         updateScore(0);
         winner.innerText = 'draw';
     }
-    else if(userChoice=== 'paper' && computerChoice=== 'rock' || userChoice === 'scissors' && computerChoice === 'paper' && userChoice=== 'rock' && computerChoice === 'scissors')
+    else if(userChoice=== 'paper' && computerChoice=== 'rock' || userChoice === 'scissors' && computerChoice === 'paper' || userChoice=== 'rock' && computerChoice === 'scissors')
     {
         //Win
          updateScore(1);
